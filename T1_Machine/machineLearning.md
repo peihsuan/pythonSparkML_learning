@@ -3,12 +3,14 @@
 [//]:中文
 [//]: [English](../machineLearngng_en.md)
 
---
-
 從大量歷史中學習預測未來發生事情的結果。
 
-### 簡單敘述
-基於 **大量歷史資料、演算法** 找出最適合的預測模型，將陸續發生的資料跑預測模型，預測未來的可能趨勢。
+步驟：
+
+1. 資料前處理 (missing data, feature extraction)
+2. Model Training 
+3. Model Testing 
+4. Make Prediction
 
 #### 可以做什麼?
 舉凡累積大量資料的領域都有機會應用找出潛在的規則。像是，
@@ -27,8 +29,8 @@
 | 分類 | 簡介 | Label | 方法 |
 | --- | ---  | --- | --- |
 | Supervised Learning | 每種情況都可被分類到某一個結果中 |  V |Classification、Regression |
-| Unsupervised Learning | 針對input data的特徵，找出是否有類似的特徵可以被區分成為一群 |  X | Clustering |
-| Reinforcement Learning | 透過不斷的嘗試各種組合，會知道怎樣能達到目標，最後得出符合目標的結果| -- | Deep Learning |
+| Unsupervised Learning | 針對input data的特徵，找出是否有類似的特徵可以被區分成為一群 |  X | Clustering、K-means |
+| Reinforcement Learning | 透過不斷的嘗試各種組合，持續的改進模型| -- | Deep Learning |
 
 
 ### 為何有了統計，還要用Machine Learning？
@@ -43,12 +45,9 @@ Machine Learning:
 
 扣除了assumptions 和 model checking，可支援較大維度的dataset，找出多一些結果。
 
-[Ref](https://www.analyticsvidhya.com/blog/2015/07/difference-machine-learning-statistical-modeling/)
-
-[Ref (stackexanchge)](https://stats.stackexchange.com/questions/6/the-two-cultures-statistics-vs-machine-learning)
+[範例](https://www.analyticsvidhya.com/blog/2015/07/difference-machine-learning-statistical-modeling/)
 
 
---
 參考資料：
 
 1. [書] Python + Spark 機器學習與大數據分析實戰
